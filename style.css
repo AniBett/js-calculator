@@ -1,0 +1,126 @@
+*{
+    
+    background-color: #bdbdbd;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.first-container{
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  
+   
+}
+.totalContainer{
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 25px;
+    
+    
+}
+.container {
+    text-align: center;
+    display:grid;
+    grid-template-columns: repeat(4, .25fr);
+    
+    height:500px;
+    grid-gap:10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #212121;
+    
+    
+    
+    
+    
+}
+.num0{
+    grid-column: span 2;
+    
+
+}
+.display{
+    
+    width: 400px;
+    height: 130px;
+    background-color: #3B3B3B;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    border-radius: 25px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+  
+
+}
+.textDisp{
+    font-size: 315%;
+    color: white;
+    background-color: #3B3B3B;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    border-radius: 25px;
+    
+}
+button{
+    background-color:#616161;;
+    border-radius: 225px;
+    border-style: none;
+    color:white;
+    font-size:180%;
+    
+    
+}
+button:hover{
+    background-color:#505050;
+}
+
+
+.divide:focus,
+.addition:focus,
+.subtract:focus,
+.multiply:focus{
+    background-color:white;
+    color:#FF9500;
+}
+
+
+button:active{
+    transform: translateY(0.2rem);
+}
+.num1:active,.num2:active,.num3:active,.num4:active, .num6:active,.num7:active,.num8:active,.num9:active,.num0:active{
+    background-color: #bdbdbd;
+}
+.Messages{
+    text-align: center;
+    font-size: 220%;
+    transition: 1s;
+}
+
+a {
+    
+    color: white;
+}
+
+a:hover {
+    color: #212121;
+}
+footer{
+    
+  
+    text-align: center;
+    
+    
+}
+
+
+    
+  
