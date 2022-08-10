@@ -1,2 +1,2 @@
 # js-calculator
-JavaScript Calculator for basic math functions
+WebApp JavaScript Calculator for basic math functions
